@@ -11,7 +11,7 @@ var arr = [10,20,30,40,50,60]
 //Code Here
 
 let firstItem = arr[0]
-
+console.log(firstItem)
 
 ////////// PROBLEM 2 //////////
 /*
@@ -114,7 +114,7 @@ console.log("fifth value of myFavoriteNumbers " + someNum)
 
 //Code Here
 
-if (myFavoriteNumbers.length <= 7) {
+if (myFavoriteNumbers.length < 7) {
   console.log("There are not enough elements in this array'")
 } else
   someNum = myFavoriteNumbers[6]
